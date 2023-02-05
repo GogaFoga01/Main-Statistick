@@ -10,9 +10,6 @@ url = input()
 search = str(re.search('https\://main\.community/u/', url))
 links = search
 
-# https://app.main.community/users/425454/posts?limit=&offset=&type=&tagId=
-# https://app.main.community/users/{ID}/posts?limit=&offset=&type=&tagId=
-# https://main.community/u/Arooj
 
 # ---------------- Функция получения ID пользователя  ----------------------------
 
